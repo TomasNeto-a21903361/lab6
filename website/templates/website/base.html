@@ -23,7 +23,7 @@
 	{% endblock main %}
     </main>
     <aside class="col-sm-6">
-        <img src="{% static 'website/images/carl.png' %}">
+        <img src="{% load static %} {% static 'website/images/carl.png' %}" alt="">
     </aside>
 </article>
 </body>
