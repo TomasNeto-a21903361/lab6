@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
 from pathlib import Path
-import whitenoise
 
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
